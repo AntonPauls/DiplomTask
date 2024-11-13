@@ -1,4 +1,4 @@
-package org.example.useCases;
+package org.example.businessLayer.useCases;
 
 public class AdminRights {
     AdminRights(){
