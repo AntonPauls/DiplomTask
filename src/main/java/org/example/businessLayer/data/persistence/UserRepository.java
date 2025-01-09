@@ -1,4 +1,4 @@
-package org.example.businessLayer.adapters.repo;
+package org.example.businessLayer.data.persistence;
 
 public interface UserRepository {
     // extends JpaRepository

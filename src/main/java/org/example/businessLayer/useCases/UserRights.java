@@ -8,4 +8,5 @@ public class UserRights {
     void addPublication(){}
     void addСonference(){}
     void generateReportsByYear(){}
+    void showUserSelfInfo(){}
 }
