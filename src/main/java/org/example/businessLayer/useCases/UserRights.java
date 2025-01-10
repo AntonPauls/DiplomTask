@@ -9,4 +9,6 @@ public class UserRights {
     void addСonference(){}
     void generateReportsByYear(){}
     void showUserSelfInfo(){}
+    void adjustExistingWork(){}
+//    void generateScientistsReports(RoleUser roleUser){}
 }
