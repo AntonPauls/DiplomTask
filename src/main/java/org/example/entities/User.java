@@ -1,4 +1,4 @@
-package org.example.businessLayer.entities;
+package org.example.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,7 +10,7 @@ import java.util.*;
 public class User {
     @Id
     @GeneratedValue(strategy =  GenerationType.AUTO)
-    protected long id;
+    private long id;
     protected String name_user;
     protected String sure_name;
     protected String email;

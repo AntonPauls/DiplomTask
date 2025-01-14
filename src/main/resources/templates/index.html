@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна сторінка</title>
+    <link  rel="stylesheet" th:href="@{/main.css}">
+</head>
+<body>
+    <header class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Публікації</a></li>
+                <li><a href="#">Конференції</a></li>
+                <li><a href="#">Звіти</a></li>
+                <li><a href="#">Налаштування</a></li>
+            </ul>
+        </div>
+        <div class="dashboard">
+            <header>
+                <h1>Наукова діяльність</h1>
+                <p>Ласкаво просимо, [Ім'я]</p>
+            </header>
+        </div>
+    </header>
+    <main class="container">
+        <div class="charts">
+            <div class="chart">Публікації</div>
+            <div class="chart">Цитування</div>
+            <div class="chart">Конференції</div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package org.example.businessLayer.entities;
+package org.example.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

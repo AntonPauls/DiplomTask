@@ -1,4 +1,4 @@
-package org.example.businessLayer.data.persistence;
+package org.example.data.persistence;
 
 public interface ItemRepository {
     // extends CrudRepository

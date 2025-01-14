@@ -1,4 +1,4 @@
-package org.example.businessLayer.entities;
+package org.example.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,8 +15,7 @@ public class Publication {
     private String type_publication;
     private String author_publication;
     private String data_source;
-    void become_data_DB(){}
-    void update_publication(){}
+
 
     public long getId() {
         return id;

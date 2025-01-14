@@ -1,4 +1,4 @@
-package org.example.businessLayer.entrypoits;
+package org.example.entrypoits;
 
 public class OkHttpClient {
     /*Створення http клиента для отримання даних

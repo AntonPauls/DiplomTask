@@ -1,4 +1,4 @@
-package org.example.businessLayer.entrypoits.json;
+package org.example.entrypoits.json;
 
 public record Jackson() {
     /*
